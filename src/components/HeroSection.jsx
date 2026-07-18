@@ -1,4 +1,7 @@
 import heroImage from "../assets/images/home-Hero.jpg";
+import { Link } from "react-router-dom";
+
+
 
 // Single source of truth for the WhatsApp number
 const WHATSAPP_NUMBER = "+923009315986";
@@ -148,12 +151,12 @@ export default function HeroSection() {
 
             {/* BUG FIX #2: Added missing wrapper div around the two CTA buttons */}
             <div className="mt-8 flex flex-col sm:flex-row items-center justify-center gap-4">
-              <a
-                href="/packages"
+              <Link
+                to="/packages"
                 className="w-full sm:w-auto rounded-full bg-gold px-8 py-3 text-sm font-semibold text-emerald-deep transition-transform duration-200 hover:scale-105 hover:brightness-95"
               >
                 Explore Packages
-              </a>
+              </Link>
 
               <a
                 href="/contact"
