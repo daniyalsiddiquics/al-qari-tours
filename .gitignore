@@ -1,0 +1,12 @@
+# .gitignore
+# WHY THIS FILE EXISTS:
+# node_modules can be HUGE (often 100MB+) and is fully reproducible
+# from package.json via `npm install`, so it should never be committed.
+# The dist/ folder is generated build output, also reproducible via
+# `npm run build`. Committing either bloats the repo and causes
+# unnecessary merge conflicts.
+
+node_modules/
+dist/
+.env
+.DS_Store

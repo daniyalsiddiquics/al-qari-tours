@@ -1,0 +1,23 @@
+/* src/index.css */
+/*
+  WHY THIS FILE EXISTS:
+  Tailwind needs to inject its generated CSS somewhere. These three
+  "@tailwind" directives are placeholders that the Tailwind build
+  process replaces with real CSS rules:
+    - base       -> sensible global resets (margins, font defaults, etc.)
+    - components -> reusable class-based component patterns (rarely used by us directly)
+    - utilities  -> all the utility classes like "flex", "p-4", "text-center"
+
+  HOW IT CONNECTS TO OTHER FILES:
+  - This file is imported ONCE in src/main.jsx, which makes these
+    styles available globally across the entire app.
+  - You generally should NOT need to write much custom CSS here —
+    most styling will be done with Tailwind classes directly in JSX.
+*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can add small global overrides below if Tailwind utilities
+   aren't enough for a specific case (keep this rare, to stay scalable). */

@@ -1,0 +1,47 @@
+<!-- index.html -->
+<!--
+  WHY THIS FILE EXISTS:
+  Every web app needs ONE real HTML page to start from. React doesn't
+  replace HTML — it injects itself INTO an HTML page. This file is that
+  page. Vite uses it as the entry point: it looks for the <script> tag
+  below to know where the JavaScript (our React app) starts.
+
+  HOW IT CONNECTS TO OTHER FILES:
+  - The <div id="root"></div> is the empty container that React will
+    "mount" into. Look in src/main.jsx — that's where we tell React
+    to render our app inside THIS exact div.
+  - The <script type="module" src="/src/main.jsx"> line is what
+    actually boots up the whole React application.
+-->
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Title shown in the browser tab; update per-page later using
+         React Helmet or manual document.title changes if needed -->
+    <title>Al Qari Tours Travel (Pvt.) Ltd.</title>
+    <link rel="icon" href="/favicon.png" />
+
+    <!-- Brand fonts: Fraunces (serif, used for the logo/headings) and
+         Inter (sans, used for nav links and body text). Loaded here
+         once so every page can use the "font-display" / "font-sans"
+         Tailwind classes defined in tailwind.config.js. -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- This empty div is where our entire React app will be injected.
+         React takes full control of everything inside this element. -->
+    <div id="root"></div>
+
+    <!-- type="module" lets us use modern import/export syntax directly
+         in the browser during development (Vite handles bundling). -->
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
