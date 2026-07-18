@@ -1,4 +1,4 @@
-import heroImage from "../assets/images/home-hero.jpg";
+import heroImage from "../assets/images/home-Hero.jpg";
 
 // Single source of truth for the WhatsApp number
 const WHATSAPP_NUMBER = "+923009315986";
