@@ -158,12 +158,12 @@ export default function HeroSection() {
                 Explore Packages
               </Link>
 
-              <a
-                href="/contact"
+              <Link
+                to="/contact"
                 className="w-full sm:w-auto rounded-full border border-cream px-8 py-3 text-sm font-semibold text-cream transition-colors duration-200 hover:bg-cream hover:text-emerald-deep"
               >
                 Contact Us
-              </a>
+              </Link>
             </div>
 
             {/* Stats card */}
