@@ -32,7 +32,7 @@ export default function Footer() {
               rel="noopener noreferrer"
               className="font-semibold text-emerald-700 hover:text-emerald-900 hover:underline"
             >
-              Daniyal Siddiqui
+              Danix Developers
             </a>
           </p>
 

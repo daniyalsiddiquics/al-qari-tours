@@ -1,27 +1,7 @@
-// src/pages/Contact.jsx
-//
-// WHY THIS FILE EXISTS:
-// Shown at "/contact" — gives visitors every way to reach Al Qari
-// Tours: a team directory, office details, a map, and a contact
-// form. Rendered by AppRoutes.jsx whenever the URL matches
-// ROUTES.CONTACT.
-//
-// BACKEND-READY NOTE:
-// "teamMembers" and "officeInfo" below are plain data (an array and
-// an object). Later, replacing them with the result of a fetch() call
-// to your backend requires NO changes to the JSX below — the page
-// simply renders whatever is in these two variables.
 import contactHero from "../assets/images/contact-Hero.jpg";
 import { useState } from "react";
 
-// ----------------------------------------------------------------
-// TEAM DATA
-// ----------------------------------------------------------------
-// WHY AN ARRAY: every team member needs the same fields (name, role,
-// phone, email, photo) but different values. Storing them as one
-// array of objects means the card grid only needs to be written
-// ONCE — adding a 4th team member later is just adding one object
-// here, no JSX changes required.
+
 const teamMembers = [
   {
     id: 1,
@@ -30,7 +10,7 @@ const teamMembers = [
     phone: "+923009315986",
     whatsapp: "+923009315986",
     email: "Alqari_travel@yahoo.com",
-    image: "https://placehold.co/300x300/0F4C3A/F8F4EC?text=AQ",
+    image: "https://placehold.co/300x300/0F4C3A/F8F4EC?text=QMY",
   },
   {
     id: 2,
@@ -38,8 +18,8 @@ const teamMembers = [
     role: "Ticketing Manager & Accountant ",
     phone: "+92117290851",
     whatsapp: "+92117290851",
-    email: "sara@alqaritours.com",
-    image: "https://placehold.co/300x300/0F4C3A/F8F4EC?text=SA",
+    email: "hasnainmaaz11@gmail.com",
+    image: "https://placehold.co/300x300/0F4C3A/F8F4EC?text=MHM",
   },
   {
     id: 3,
@@ -48,7 +28,7 @@ const teamMembers = [
     phone: "+923163647808",
     whatsapp: "+923163647808",
     email: "talhaarain050@gmail.com ",
-    image: "https://placehold.co/300x300/0F4C3A/F8F4EC?text=BH",
+    image: "https://placehold.co/300x300/0F4C3A/F8F4EC?text=MT",
   },
 ];
 

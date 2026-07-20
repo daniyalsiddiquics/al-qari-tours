@@ -144,8 +144,7 @@ export default function HeroSection() {
                Al Qari Tours Travel (Pvt.) Ltd. is a trusted travel and Umrah service provider
               with over 20 years of experience in the travel industry. We offer a
               variety of Umrah packages, from economical options to premium star
-              packages, designed to meet the needs and budgets of different
-              travelers. We also provide domestic and international airline
+              packages. We also provide domestic and international airline
               ticketing, helping customers travel to destinations around the world.
             </p>
 
