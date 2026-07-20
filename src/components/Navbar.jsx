@@ -19,7 +19,7 @@ export default function Navbar() {
   return (
     <header className="sticky top-0 z-50 bg-cream/95 backdrop-blur-sm border-b border-gold/30">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-       <div className="flex items-center h-20">
+       <div className="flex items-center justify-between h-20">
           <NavLink
             to={ROUTES.HOME}
             onClick={closeMobileMenu}
@@ -72,7 +72,7 @@ export default function Navbar() {
           <button
             type="button"
             onClick={() => setIsMobileMenuOpen((open) => !open)}
-            className="md:hidden inline-flex items-center justify-center rounded-md p-2 text-emerald-deep"
+            className="md:hidden ml-auto inline-flex items-center justify-center rounded-md p-2 text-emerald-deep"
             aria-label="Toggle navigation menu"
             aria-expanded={isMobileMenuOpen}
           >
